@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish:wght@400;700&display=swap');
+:root {
+    --grey-black: #333333;
+    --navtop-font-size: 10px;
+    --navtop-line-height: 13px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Top */
+
+.navtop-container {
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 260px;
+}
+
+.navtop-top {
+    color: var(--grey-black);
+    background-color: #f5fafe;
+    height: 60px;
+    width: 1440px;
+}
+
+.navtop-top__one {
+    position: absolute;
+    width: 243px;
+    height: 13px;
+    left: 165px;
+    top: 14px;
+}
+
+.navtop-top__one p {
+    position: absolute;
+    width: 239px;
+    height: 11px;
+    color: var(--grey-black);
+    font-family: Mulish;
+    font-style: normal;
+    font-size: var(--navtop-font-size);
+    line-height: var(--navtop-line-height);
+}
+
+.navtop-top__two_a {
+    position: absolute;
+    width: 102px;
+    height: 18px;
+    left: 957px;
+    top: 25px;
+}
+
+.navtop-top__two_b {
+    position: absolute;
+    width: 115px;
+    height: 18px;
+    left: 1157px;
+    top: 25px;
+}
+
+.navtop-top__two_a img,
+.navtop-top__two_b img {
+    width: 18px;
+    height: 18px;
+}
+
+.navtop-top__two_a span,
+.navtop-top__two_b span {
+    position: absolute;
+    width: 83px;
+    height: 13px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--grey-black);
+    font-size: var(--navtop-font-size);
+    line-height: var(--navtop-line-height);
+    left: 36px;
+    bottom: 0px;
+}
+
+.navtop-top__two_b span {
+    bottom: 1px;
+}

@@ -2,13 +2,15 @@
 :root {
     --grey-black: #333333;
     --dark-red: #EC1F46;
+    --duron-faraway-blue: #F5FAFE;
     --navtop-font-size: 10px;
     --navtop-line-height: 13px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    display: table;
+    margin: auto;
+    padding: auto;
 }
 
 
@@ -18,12 +20,12 @@ body {
     position: relative;
     display: block;
     width: 1440px;
-    height: 260px;
+    height: 120px;
 }
 
 .navtop-top {
     color: var(--grey-black);
-    background-color: #f5fafe;
+    background-color: var(--duron-faraway-blue);
     height: 60px;
     width: 1440px;
 }
@@ -97,19 +99,25 @@ body {
 /* Navbar */
 
 .navbar {
-    position: absolute;
+    position: relative;
+    display: block;
     width: 1440px;
     height: 120px;
     left: 2px;
     top: 0px;
 }
 
+.navbar__logo {
+    height: 60px;
+    width: 1440px;
+}
+
 .navbar__logo span {
     position: absolute;
     width: 177px;
     height: 24px;
-    left: 165px;
-    top: 109px;
+    left: 162px;
+    top: 0px;
     font-family: Luckiest Guy;
     font-style: normal;
     font-weight: normal;
@@ -128,7 +136,7 @@ body {
     width: 352px;
     height: 42px;
     left: 450px;
-    top: 100px;
+    top: -10px;
 }
 
 .navbar__search label {
@@ -149,7 +157,7 @@ body {
     width: 350px;
     height: 40px;
     left: 0px;
-    background: #F5FAFE;
+    background: var(--duron-faraway-blue);
     border-radius: 6px;
     border: none;
 }
@@ -173,11 +181,11 @@ body {
 }
 
 .navbar__cart {
-    position: absolute;
+    position: relative;
     width: 34px;
     height: 34px;
     left: 1038px;
-    top: 102px;
+    top: -60px;
 }
 
 .navbar__cart-icn1 {
@@ -185,7 +193,7 @@ body {
     width: 24px;
     height: 24px;
     left: 1px;
-    top: 10px;
+    top: 0px;
 }
 
 .icon-badge {
@@ -197,7 +205,7 @@ body {
     border: 1px solid #fff;
     border-radius: 50%;
     position: relative;
-    top: -1px;
+    top: -10px;
     left: 16px;
     font-family: Mulish;
     font-style: normal;
@@ -207,11 +215,11 @@ body {
 }
 
 .navbar__profile {
-    position: absolute;
+    position: relative;
     width: 150px;
     height: 40px;
     left: 1125px;
-    top: 99px;
+    top: -130px;
 }
 
 .navbar__profile_img {
@@ -245,12 +253,15 @@ body {
     top: 7px;
 }
 
+
+/* Navbar Bottom */
+
 .navbar-bottom-container {
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 80px;
     left: 0px;
-    top: 180px;
+    top: -100px;
     background: #0A223D;
 }
 
@@ -327,4 +338,35 @@ body {
     height: 18px;
     left: 1192px;
     top: 30px;
+}
+
+
+/* Breadcrumb */
+
+.bread-crumb {
+    position: relative;
+    width: 1440px;
+    height: 50px;
+    left: 0px;
+    top: -110px;
+    background: var(--duron-faraway-blue);
+    color: var(--grey-black);
+}
+
+.bread-crumb__links {
+    position: relative;
+    width: 186px;
+    height: 13px;
+    left: 165px;
+    top: 14px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.bread-crumb__links a {
+    text-decoration: none;
+    color: var(--grey-black);
 }

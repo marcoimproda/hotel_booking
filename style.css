@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish:wght@400;600;700&family=Nunito:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish:wght@400;700&family=Nunito&display=swap');
 :root {
     --grey-black: #333333;
     --dark-red: #EC1F46;
     --duron-faraway-blue: #F5FAFE;
     --white: #FFFFFF;
+    --dark-blue: #0A223D;
     --navtop-font-size: 10px;
     --navtop-line-height: 13px;
 }
@@ -761,4 +762,717 @@ body {
     width: 143px;
     height: 16.45px;
     left: 960px;
+}
+
+
+/* Package Summery */
+
+.content-hotel__package-summery {
+    position: relative;
+    width: 1110px;
+    height: 842px;
+    left: 166px;
+    top: -68px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.content-hotel__package-summery_title {
+    left: 167px;
+    top: 1003px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--grey-black);
+}
+
+.content-hotel__package-summery_package-card {
+    position: absolute;
+    width: 538px;
+    height: 200px;
+    left: 0px;
+    top: 60px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.content-hotel__package-summery_package-card_title {
+    position: absolute;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: var(--dark-blue);
+    border-radius: 4px 4px 0px 0px;
+}
+
+.content-hotel__package-summery_package-card_title span {
+    position: relative;
+    left: 26px;
+    top: 15px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.content-hotel__package-summery_package-card_body {
+    position: relative;
+    width: 479px;
+    height: 96px;
+    left: 0px;
+    top: 62px;
+}
+
+.content-hotel__package-summery_package-card_body span {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--grey-black);
+}
+
+.package-card-body_circle-first {
+    position: absolute;
+    left: 31px;
+    top: 11px;
+}
+
+.content-hotel__package-summery_package-card_body_text-first {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    left: 68px;
+    top: 13px;
+}
+
+.package-card-body_circle-second {
+    position: absolute;
+    left: 31px;
+    top: 50px;
+}
+
+.content-hotel__package-summery_package-card_body_text-second {
+    position: absolute;
+    width: 172px;
+    height: 15px;
+    left: 68px;
+    top: 52px;
+}
+
+.package-card-body_circle-third {
+    position: absolute;
+    left: 31px;
+    top: 90px;
+}
+
+.content-hotel__package-summery_package-card_body_text-third {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    left: 68px;
+    top: 92px;
+}
+
+.package-card-body_circle-fourth {
+    position: absolute;
+    left: 300px;
+    top: 12px;
+}
+
+.content-hotel__package-summery_package-card_body_text-fourth {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    left: 335px;
+    top: 13px;
+}
+
+.package-card-body_circle-fifth {
+    position: absolute;
+    left: 300px;
+    top: 51px;
+}
+
+.content-hotel__package-summery_package-card_body_text-fifth {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    left: 335px;
+    top: 52px;
+}
+
+.content-hotel__package-summery_package-offer {
+    position: absolute;
+    width: 538px;
+    height: 200px;
+    left: 570px;
+    top: 60px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.content-hotel__package-summery_package-offer_title {
+    position: absolute;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: var(--dark-blue);
+    border-radius: 4px 4px 0px 0px;
+}
+
+.content-hotel__package-summery_package-offer_title span {
+    position: relative;
+    left: 26px;
+    top: 15px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.content-hotel__package-summery_package-offer_body {
+    position: relative;
+    width: 479px;
+    height: 96px;
+    left: 0px;
+    top: 62px;
+}
+
+.package-offer-body_circle {
+    position: absolute;
+    left: 26px;
+    top: 14px;
+}
+
+.content-hotel__package-summery_package-offer_body_text {
+    position: absolute;
+    width: 168px;
+    height: 103px;
+    left: 66px;
+    top: 13px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--grey-black);
+}
+
+.content-hotel__package-summery_package-offer_body_text::after {
+    content: "* Valid until 30 April 2020 ";
+    position: relative;
+    display: block;
+    font-style: italic;
+    font-size: 10px;
+    top: 45px;
+}
+
+.package-offer-body_calendar {
+    position: absolute;
+    left: 280px;
+    top: 14px;
+}
+
+.content-hotel__package-summery_package-offer_body_text-secondary {
+    position: absolute;
+    width: 189px;
+    height: 18px;
+    left: 314px;
+    top: 14px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--grey-black);
+}
+
+.content-hotel__package-summery_package-details {
+    position: absolute;
+    width: 1110px;
+    height: 570px;
+    left: 0px;
+    top: 300px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.content-hotel__package-summery_package-details_title {
+    position: absolute;
+    width: 1110px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: var(--dark-blue);
+    border-radius: 4px 4px 0px 0px;
+}
+
+.content-hotel__package-summery_package-details_title span {
+    position: relative;
+    left: 26px;
+    top: 15px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.line {
+    position: absolute;
+    width: 1048px;
+    height: 0px;
+    left: 27px;
+    top: 398px;
+    border: 1px dashed #E0E0E0;
+}
+
+.content-hotel__package-summery_package-details_body-first-group {
+    position: relative;
+    width: 258px;
+    height: 239px;
+    left: 26px;
+    top: 95px;
+}
+
+.content-hotel__package-summery_package-details_body-title {
+    position: absolute;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--dark-red);
+}
+
+.activity {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--grey-black);
+}
+
+.activity-one {
+    position: relative;
+    width: 258px;
+    height: 239px;
+    left: 0px;
+    top: 30px;
+}
+
+.activity-one .group01 {
+    width: 162px;
+    height: 16px;
+}
+
+.activity-one .group01-circle {
+    position: relative;
+    left: -3px;
+    top: 6px;
+}
+
+.activity-one .group01-text {
+    position: relative;
+    width: 122px;
+    height: 15px;
+    left: 17px;
+    top: 2px;
+}
+
+.activity-one .group02-circle {
+    position: relative;
+    left: -3px;
+    top: 26px;
+}
+
+.activity-one .group02-text {
+    position: relative;
+    left: 17px;
+    top: 22px;
+}
+
+.activity-one .group03-circle {
+    position: relative;
+    left: -3px;
+    top: 46px;
+}
+
+.activity-one .group03-text {
+    position: relative;
+    left: 17px;
+    top: 42px;
+}
+
+.activity-one .group04-circle {
+    position: relative;
+    left: -3px;
+    top: 66px;
+}
+
+.activity-one .group04-text {
+    position: relative;
+    left: 17px;
+    top: 62px;
+}
+
+.activity-one .group05-circle {
+    position: relative;
+    left: -3px;
+    top: 86px;
+}
+
+.activity-one .group05-text {
+    position: relative;
+    left: 17px;
+    top: 82px;
+}
+
+.activity-one .group06-circle {
+    position: relative;
+    left: -3px;
+    top: 106px;
+}
+
+.activity-one .group06-text {
+    position: relative;
+    left: 17px;
+    top: 102px;
+}
+
+.content-hotel__package-summery_package-details_body-second-group {
+    position: relative;
+    width: 284px;
+    height: 238px;
+    left: 398px;
+    top: -143px;
+}
+
+.activity-two {
+    position: relative;
+    width: 284px;
+    height: 238px;
+    left: 10px;
+    top: 50px;
+}
+
+.activity-two .group01-circle {
+    position: relative;
+    left: -5px;
+    top: -15px;
+}
+
+.activity-two .group01-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 17px;
+    top: -19px;
+}
+
+.activity-two .group02-circle {
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
+
+.activity-two .group02-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 17px;
+    top: -5px;
+}
+
+.activity-two .group03-circle {
+    position: relative;
+    left: -5px;
+    top: 21px;
+}
+
+.activity-two .group03-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 17px;
+    top: 16px;
+}
+
+.activity-two .group04-circle {
+    position: relative;
+    left: -5px;
+    top: 40px;
+}
+
+.activity-two .group04-text {
+    position: relative;
+    width: 67px;
+    height: 15px;
+    left: 17px;
+    top: 35px;
+}
+
+.activity-two .group05-circle {
+    position: relative;
+    left: -5px;
+    top: 60px;
+}
+
+.activity-two .group05-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 17px;
+    top: 55px;
+}
+
+.activity-two .group06-circle {
+    position: relative;
+    left: -5px;
+    top: 80px;
+}
+
+.activity-two .group06-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 17px;
+    top: 74px;
+}
+
+.content-hotel__package-summery_package-details_body-third-group {
+    position: relative;
+    width: 244px;
+    height: 233px;
+    left: 806px;
+    top: -381px;
+}
+
+.activity-three {
+    position: relative;
+    width: 284px;
+    height: 238px;
+    left: 10px;
+    top: 50px;
+}
+
+.activity-three .group01-circle {
+    position: relative;
+    left: -8px;
+    top: -15px;
+}
+
+.activity-three .group01-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 12px;
+    top: -20px;
+}
+
+.activity-three .group02-circle {
+    position: relative;
+    left: -8px;
+    top: 0px;
+}
+
+.activity-three .group02-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 12px;
+    top: -5px;
+}
+
+.activity-three .group03-circle {
+    position: relative;
+    left: -8px;
+    top: 21px;
+}
+
+.activity-three .group03-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 14px;
+    top: 16px;
+}
+
+.activity-three .group04-circle {
+    position: relative;
+    left: -8px;
+    top: 40px;
+}
+
+.activity-three .group04-text {
+    position: relative;
+    width: 67px;
+    height: 15px;
+    left: 14px;
+    top: 35px;
+}
+
+.activity-three .group05-circle {
+    position: relative;
+    left: -8px;
+    top: 60px;
+}
+
+.activity-three .group05-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 14px;
+    top: 55px;
+}
+
+.activity-three .group06-circle {
+    position: relative;
+    left: -8px;
+    top: 80px;
+}
+
+.activity-three .group06-text {
+    position: relative;
+    width: 66px;
+    height: 16px;
+    left: 14px;
+    top: 75px;
+}
+
+.content-hotel__package-summery_package-details_body-fourth-group {
+    position: relative;
+    width: 130px;
+    height: 90px;
+    left: 26px;
+    top: -288px;
+}
+
+.activity-four {
+    position: relative;
+    width: 258px;
+    height: 239px;
+    left: 0px;
+    top: 30px;
+}
+
+.activity-four .group01-circle {
+    position: relative;
+    left: -3px;
+    top: 6px;
+}
+
+.activity-four .group01-text {
+    position: relative;
+    width: 122px;
+    height: 15px;
+    left: 17px;
+    top: 2px;
+}
+
+.activity-four .group02-circle {
+    position: relative;
+    left: -3px;
+    top: 26px;
+}
+
+.activity-four .group02-text {
+    position: relative;
+    left: 17px;
+    top: 22px;
+}
+
+.content-hotel__package-summery_package-details_body-fifth-group {
+    position: relative;
+    width: 194px;
+    height: 90px;
+    left: 399px;
+    top: -378px;
+}
+
+.activity-five {
+    position: relative;
+    width: 258px;
+    height: 239px;
+    left: 0px;
+    top: 30px;
+}
+
+.activity-five .group01-circle {
+    position: relative;
+    left: 4px;
+    top: 6px;
+}
+
+.activity-five .group01-text {
+    position: relative;
+    width: 122px;
+    height: 15px;
+    left: 26px;
+    top: 2px;
+}
+
+.activity-five .group02-circle {
+    position: relative;
+    left: 4px;
+    top: 26px;
+}
+
+.activity-five .group02-text {
+    position: relative;
+    left: 26px;
+    top: 22px;
+}
+
+.content-hotel__package-summery_package-details_body-sixth-group {
+    position: relative;
+    width: 163px;
+    height: 90px;
+    left: 806px;
+    top: -468px;
+}
+
+.activity-six {
+    position: relative;
+    width: 258px;
+    height: 239px;
+    left: 0px;
+    top: 30px;
+}
+
+.activity-six .group01-circle {
+    position: relative;
+    left: 2px;
+    top: 6px;
+}
+
+.activity-six .group01-text {
+    position: relative;
+    width: 122px;
+    height: 15px;
+    left: 26px;
+    top: 2px;
+}
+
+.activity-six .group02-circle {
+    position: relative;
+    left: 2px;
+    top: 26px;
+}
+
+.activity-six .group02-text {
+    position: relative;
+    left: 26px;
+    top: 22px;
 }

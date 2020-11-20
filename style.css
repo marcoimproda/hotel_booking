@@ -378,7 +378,7 @@ body {
 .content-hotel {
     position: relative;
     display: block;
-    height: 4258px;
+    height: 1608px;
     width: 1440px;
     top: -110px;
     background: var(--duron-faraway-blue);
@@ -1475,4 +1475,430 @@ body {
     position: relative;
     left: 26px;
     top: 22px;
+}
+
+
+/* Guest Review Section */
+
+.guest-review {
+    position: relative;
+    width: 1440px;
+    height: 1250px;
+    left: 0px;
+    top: -110px;
+    background: var(--duron-faraway-blue);
+}
+
+.guest-review-title {
+    position: relative;
+    width: 327px;
+    height: 45px;
+    left: 556px;
+    top: 35px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--grey-black);
+}
+
+.guest-review-section-one-cards {
+    position: relative;
+    display: flex;
+    left: 100px;
+    top: 100px;
+}
+
+.guest-review__card-box-big {
+    display: flex;
+    position: relative;
+    width: 730px;
+    height: 500px;
+}
+
+.guest-review__card-box-big-img-label {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    left: 0px;
+    top: 30px;
+    background: var(--dark-red);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.guest-review__card-box-big-img-label span {
+    position: relative;
+    width: 72px;
+    height: 15px;
+    left: 14px;
+    top: 4px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--white);
+}
+
+.guest-review__card-box-big-body {
+    position: relative;
+    width: 364px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background: var(--dark-blue);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.guest-review__card-box-big-body-title {
+    position: relative;
+    width: 149px;
+    height: 36px;
+    left: 40px;
+    top: 53px;
+}
+
+.guest-review__card-box-big-body-title img {
+    margin: 0 1px;
+}
+
+.guest-review__card-box-big-body-title span {
+    position: relative;
+    display: block;
+    width: 149px;
+    height: 23px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--white);
+}
+
+.guest-review__card-box-big-body-title p {
+    position: relative;
+    width: 299px;
+    height: 165px;
+    left: 0px;
+    top: 10px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160.6%;
+    color: var(--white);
+}
+
+.guest-review__card-box-big-body-info {
+    position: relative;
+    width: 203px;
+    height: 67px;
+    left: 0px;
+    top: 300px;
+}
+
+.guest-review__card-box-big-body-info span {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--white);
+}
+
+.guest-review__card-box-big-body-info .group01-icon {
+    position: relative;
+    left: 38px;
+    top: -22px;
+}
+
+.guest-review__card-box-big-body-info .group01-text {
+    position: relative;
+    left: 47px;
+    top: -25px;
+}
+
+.guest-review__card-box-big-body-info .group02-icon {
+    position: relative;
+    left: 38px;
+    top: -12px;
+}
+
+.guest-review__card-box-big-body-info .group02-text {
+    position: relative;
+    left: 48px;
+    top: -15px;
+}
+
+.guest-review__card-box-big-body-info .group03-icon {
+    position: relative;
+    left: -42px;
+    top: 13px;
+}
+
+.guest-review__card-box-big-body-info .group03-text {
+    position: relative;
+    left: -32px;
+    top: 11px;
+}
+
+.guest-review__card-box-big-body-price {
+    position: relative;
+    top: 300px;
+    left: 40px;
+}
+
+.guest-review__card-box-big-body-price .price01 {
+    position: relative;
+    width: 58px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: var(--white);
+}
+
+.guest-review__card-box-big-body-price .price02 {
+    position: relative;
+    width: 85px;
+    height: 30px;
+    left: -63px;
+    top: 29px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.guest-review__card-box-big-body-btn {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    left: 220px;
+    top: 298px;
+    background: var(--dark-red);
+    border-radius: 4px;
+}
+
+.guest-review__card-box-big-body-btn span {
+    position: relative;
+    left: 26px;
+    top: 9px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.guest-review__card-box-normal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 730px;
+    height: 500px;
+    left: 53px;
+}
+
+.guest-review__card-box-normal-img {
+    height: 250px;
+    width: 200px;
+}
+
+.guest-review__card-box-normal-img-label {
+    position: relative;
+    width: 60px;
+    height: 18px;
+    left: 0px;
+    top: -230px;
+    background: var(--dark-red);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.guest-review__card-box-normal-img-label span {
+    position: relative;
+    width: 42px;
+    height: 10px;
+    left: 8px;
+    top: -2px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    color: var(--white);
+}
+
+.guest-review__card-box-normal-body {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background: var(--dark-blue);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.guest-review-section-two-cards {
+    position: relative;
+    display: flex;
+    left: 50px;
+    top: 140px;
+}
+
+.guest-review-section-two-cards .guest-review__card-box-normal {
+    width: 392px;
+    left: 50px;
+}
+
+.guest-review__card-box-normal-body-title {
+    position: relative;
+    width: 138px;
+    height: 23px;
+    left: 29px;
+    top: 28px;
+}
+
+.guest-review__card-box-normal-body-title span {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--white);
+}
+
+.guest-review__card-box-normal-body-info {
+    position: relative;
+    width: 203px;
+    height: 67px;
+    left: 0px;
+    top: 55px;
+}
+
+.guest-review__card-box-normal-body-info span {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--white);
+}
+
+.guest-review__card-box-normal-body-info .group01-icon {
+    position: relative;
+    left: 30px;
+    top: -11px;
+}
+
+.guest-review__card-box-normal-body-info .group01-text {
+    position: relative;
+    left: 40px;
+    top: -14px;
+}
+
+.guest-review__card-box-normal-body-info .group02-icon {
+    position: relative;
+    left: 30px;
+    top: -2px;
+}
+
+.guest-review__card-box-normal-body-info .group02-text {
+    position: relative;
+    left: 41px;
+    top: -5px;
+}
+
+.guest-review__card-box-normal-body-info .group03-icon {
+    position: relative;
+    left: -50px;
+    top: 26px;
+}
+
+.guest-review__card-box-normal-body-info .group03-text {
+    position: relative;
+    left: -39px;
+    top: 24px;
+}
+
+.guest-review__card-box-normal-body-price {
+    position: relative;
+    top: 59px;
+    left: 32px;
+}
+
+.guest-review__card-box-normal-body-price .price01 {
+    position: relative;
+    width: 58px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: var(--white);
+}
+
+.guest-review__card-box-normal-body-price .price02 {
+    position: relative;
+    width: 85px;
+    height: 30px;
+    left: -53px;
+    top: 31px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.guest-review__card-box-normal-body-btn {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    left: 210px;
+    top: 56px;
+    background: var(--dark-red);
+    border-radius: 4px;
+}
+
+.guest-review__card-box-normal-body-btn span {
+    position: relative;
+    left: 26px;
+    top: 9px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.guest-review-section-two-cards .guest-review__card-box-normal-body-info {
+    top: 59px;
+}
+
+.guest-review-section-two-cards .guest-review__card-box-normal-body-price {
+    top: 69px;
+}
+
+.guest-review-section-two-cards .guest-review__card-box-normal-body-price .fix-01 {
+    left: -60px;
+}
+
+.guest-review-section-two-cards .guest-review__card-box-normal-body-btn {
+    top: 65px;
 }

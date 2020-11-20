@@ -1907,3 +1907,109 @@ body {
 .guest-review-section-two-cards .guest-review__card-box-normal-body-btn {
     top: 65px;
 }
+
+
+/* People Review Section */
+
+.people-review {
+    position: relative;
+    width: 1440px;
+    height: 550px;
+    left: 0px;
+    top: -110px;
+    background: var(--duron-faraway-blue);
+}
+
+.people-review-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--grey-black);
+}
+
+.people-review-package-card {
+    position: relative;
+    width: 731px;
+    height: 280px;
+    left: 355px;
+    top: 90px;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.people-review-package-card-profile {
+    position: relative;
+    width: 97px;
+    height: 149px;
+    left: 324px;
+    top: -48px;
+}
+
+.people-review-package-card-profile-name {
+    position: relative;
+    left: 15px;
+    top: 6px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--dark-red);
+}
+
+.people-review-package-card_profile-date {
+    position: relative;
+    left: -1px;
+    top: 12px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.people-review-package-card_profile-stars {
+    position: relative;
+    left: 25px;
+    top: 8px;
+}
+
+.people-review-package-card_profile-stars img {
+    margin: 0 1px;
+}
+
+.people-review-package-card-body p {
+    position: relative;
+    width: 537px;
+    height: 114px;
+    left: 106px;
+    top: -31px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: justify;
+    color: var(--grey-black);
+}
+
+.people-review-package-card-body-icn-1 {
+    position: relative;
+    left: 92px;
+    top: -276px;
+}
+
+.people-review-package-card-body-icn-2 {
+    position: relative;
+    left: 534px;
+    top: -180px;
+    transform: rotate(180deg);
+}

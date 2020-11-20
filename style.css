@@ -1508,7 +1508,7 @@ body {
 .guest-review-section-one-cards {
     position: relative;
     display: flex;
-    left: 100px;
+    left: 165px;
     top: 100px;
 }
 
@@ -1517,6 +1517,8 @@ body {
     position: relative;
     width: 730px;
     height: 500px;
+    /* left: 100px;
+    top: 150px; */
 }
 
 .guest-review__card-box-big-img-label {
@@ -1589,6 +1591,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 160.6%;
+    /* or 22px */
     color: var(--white);
 }
 
@@ -1707,7 +1710,9 @@ body {
     position: relative;
     width: 730px;
     height: 500px;
-    left: 53px;
+    left: 33px;
+    /* left: 860px;
+    top: -352px; */
 }
 
 .guest-review__card-box-normal-img {
@@ -1757,8 +1762,8 @@ body {
 }
 
 .guest-review-section-two-cards .guest-review__card-box-normal {
-    width: 392px;
-    left: 50px;
+    width: 381px;
+    left: 115px;
 }
 
 .guest-review__card-box-normal-body-title {

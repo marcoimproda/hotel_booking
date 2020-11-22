@@ -2111,3 +2111,115 @@ body {
     color: var(--white);
     text-decoration: none;
 }
+
+
+/* Activities Section */
+
+.activities {
+    position: relative;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: -110px;
+    background: var(--duron-faraway-blue);
+}
+
+.activities-primary-text {
+    position: relative;
+    left: 160px;
+    top: 80px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.activities-cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.activities-card {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    left: 138px;
+    top: 130px;
+    margin-left: 30px;
+}
+
+.activities-card-background {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    left: 0px;
+    top: 0px;
+}
+
+.activities-card .card-01 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG01.png);
+    border-radius: 6px;
+}
+
+.activities-card .card-02 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG02.png);
+    border-radius: 6px;
+}
+
+.activities-card .card-03 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG03.png);
+    border-radius: 6px;
+}
+
+.activities-card .card-04 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG04.png);
+    border-radius: 6px;
+}
+
+.activities-card p {
+    position: relative;
+    width: 145px;
+    height: 40px;
+    top: -128px;
+    left: 24px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+}
+
+.activities-card .activities-card-text-02 {
+    width: 153px;
+    height: 40px;
+}
+
+.activities-card .activities-card-text-03 {
+    width: 161px;
+    height: 40x;
+}
+
+.activities-card .activities-card-text-04 {
+    width: 200px;
+    height: 40px;
+}
+
+.activities-card-button {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 25px;
+    top: -126px;
+    background: var(--dark-red);
+    border-radius: 4px;
+    border: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--white);
+}

@@ -1934,6 +1934,16 @@ body {
     color: var(--grey-black);
 }
 
+.people-review-arrows {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1074px;
+    height: 30px;
+    left: 180px;
+    top: 200px;
+}
+
 .people-review-package-card {
     position: relative;
     width: 731px;

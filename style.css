@@ -2233,3 +2233,391 @@ body {
     line-height: 16px;
     color: var(--white);
 }
+
+
+/* Footer */
+
+footer {
+    position: static;
+    width: 1440px;
+    height: 900px;
+    margin-top: -110px;
+    background: var(--dark-blue);
+}
+
+.footer-top {
+    position: relative;
+    width: 1110px;
+    height: 223px;
+    left: 174px;
+    top: 137px;
+}
+
+.footer-top span {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 166px;
+    height: 192px;
+    left: 0px;
+    top: 0px;
+    font-family: Luckiest Guy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    color: var(--white);
+}
+
+.footer-top span span {
+    position: initial;
+    color: var(--dark-red);
+}
+
+.footer-top a {
+    text-decoration: none;
+}
+
+.footer-top-links-01 {
+    position: relative;
+    top: -220px;
+    left: 288px;
+}
+
+.footer-top-links h2 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.footer-top-links-01 h2 {
+    position: relative;
+    width: 156px;
+    left: 0px;
+    top: 0px;
+}
+
+.footer-top-links li {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+    list-style: none;
+}
+
+.footer-top-links-01 li {
+    position: relative;
+    left: -39px;
+    top: 7px;
+}
+
+.footer-top-links-02 {
+    position: relative;
+    top: -451px;
+    left: 572px;
+}
+
+.footer-top-links-02 li {
+    position: relative;
+    left: -39px;
+    top: 7px;
+}
+
+.footer-top-links-03 {
+    position: relative;
+    top: -638px;
+    left: 910px;
+}
+
+.footer-top-links-03 li {
+    position: relative;
+    left: -39px;
+    top: 7px;
+}
+
+.footer-top-social-icons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 293px;
+    height: 24px;
+    left: 572px;
+    top: -597px;
+}
+
+.footer-top-social-icons h2 {
+    position: relative;
+    width: 167px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.footer-top-social-icons a {
+    display: inherit;
+    flex-direction: row;
+    margin-left: 5px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: 13px;
+}
+
+
+/* Footer Contact */
+
+.footer-contact {
+    position: relative;
+    width: 1113px;
+    height: 317px;
+    left: 171px;
+    top: 200px;
+}
+
+.footer-contact-primary-text {
+    position: relative;
+    width: 394px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.footer-contact-secondary-text {
+    position: relative;
+    width: 394px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+}
+
+.footer-contact-details-container {
+    position: relative;
+    width: 489px;
+    height: 154px;
+    left: 0px;
+    top: 0px;
+}
+
+.footer-contact-details-container p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+}
+
+.footer-contact-details-location-icn {
+    position: relative;
+    left: 5px;
+    top: -37px;
+}
+
+.footer-contact-details-location-text {
+    position: relative;
+    left: 47px;
+    top: -82px;
+}
+
+.footer-contact-details-phone-icn {
+    position: relative;
+    left: 5px;
+    top: -65px;
+}
+
+.footer-contact-details-phone-text {
+    position: relative;
+    left: 47px;
+    top: -97px;
+    margin: 0px;
+}
+
+.footer-contact-details-email-icn {
+    position: relative;
+    left: 5px;
+    top: -78px;
+}
+
+.footer-contact-details-email-text {
+    position: relative;
+    left: 47px;
+    top: -117px;
+}
+
+.footer-contact-container {
+    position: relative;
+    width: 539px;
+    height: 317px;
+    left: 575px;
+    top: -347px;
+}
+
+.footer-contact-container h2 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.footer-contact-container label {
+    position: relative;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BDBDBD;
+}
+
+#footer-contact-name {
+    position: relative;
+    width: 255px;
+    height: 50px;
+    left: 0px;
+    top: 15px;
+    background: var(--white);
+    border-radius: 4px;
+    border: none;
+}
+
+.footer-contact-label-name {
+    width: 89px;
+    height: 15px;
+    left: -241px;
+    top: 14px;
+}
+
+#footer-contact-phone {
+    position: relative;
+    width: 254px;
+    height: 50px;
+    left: 284px;
+    top: -37px;
+    background: var(--white);
+    border-radius: 4px;
+    border: none;
+}
+
+.footer-contact-label-phone {
+    width: 89px;
+    height: 15px;
+    left: 42px;
+    top: -38px;
+}
+
+#footer-contact-message {
+    position: relative;
+    width: 539px;
+    height: 123px;
+    left: 1px;
+    top: -24px;
+    background: var(--white);
+    border-radius: 4px;
+    border: none;
+}
+
+.footer-contact-label-message {
+    width: 50px;
+    height: 15px;
+    left: 22px;
+    top: -149px;
+}
+
+.footer-contact-button {
+    position: relative;
+    width: 160px;
+    height: 50px;
+    left: -54px;
+    top: -2px;
+    background: var(--dark-red);
+    border-radius: 4px;
+    border: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.footer-contact-required {
+    position: relative;
+    width: 97px;
+    height: 15px;
+    left: 448px;
+    top: -45px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E0E0E0;
+}
+
+
+/* Footer Bottom */
+
+.footer-bottom {
+    position: relative;
+    width: 696px;
+    height: 22px;
+    left: 550px;
+    top: 277px;
+}
+
+.footer-bottom-text-container {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 283px;
+    height: 15px;
+}
+
+.footer-bottom-text-container a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--white);
+}
+
+.footer-bottom img {
+    position: relative;
+    width: 136px;
+    height: 22px;
+    left: 601px;
+    top: -18px;
+}

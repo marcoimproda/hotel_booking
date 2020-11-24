@@ -5,6 +5,7 @@
     --duron-faraway-blue: #F5FAFE;
     --white: #FFFFFF;
     --dark-blue: #0A223D;
+    --light-silver: #BDBDBD;
     --navtop-font-size: 10px;
     --navtop-line-height: 13px;
 }
@@ -203,11 +204,11 @@ body {
 
 .icon-badge {
     background-color: var(--dark-red);
-    color: #fff;
+    color: var(--white);
     text-align: center;
     width: 18px;
     height: 18px;
-    border: 1px solid #fff;
+    border: 1px solid var(--white);
     border-radius: 50%;
     position: relative;
     top: -10px;
@@ -276,7 +277,7 @@ body {
     height: 85px;
     left: 0px;
     top: -100px;
-    background: #0A223D;
+    background: var(--dark-blue);
 }
 
 .navbar-bottom-container a {
@@ -419,6 +420,8 @@ body {
 }
 
 .content-hotel__text_primary {
+    position: relative;
+    top: -16px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -432,8 +435,8 @@ body {
     position: absolute;
     width: 389px;
     height: 15px;
-    left: 1px;
-    top: 30px;
+    left: 0px;
+    top: 18px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -558,7 +561,7 @@ body {
     height: 210px;
     left: 925px;
     top: -410px;
-    background: #0A223D;
+    background: var(--dark-blue);
     border-radius: 8px;
 }
 
@@ -810,7 +813,7 @@ body {
     height: 200px;
     left: 0px;
     top: 60px;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px 8px 8px 0px;
 }
 
@@ -929,7 +932,7 @@ body {
     height: 200px;
     left: 570px;
     top: 60px;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px 8px 8px 0px;
 }
 
@@ -1018,7 +1021,7 @@ body {
     height: 570px;
     left: 0px;
     top: 300px;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px 8px 8px 0px;
 }
 
@@ -2104,7 +2107,7 @@ body {
     font-weight: 300;
     font-size: 14px;
     line-height: 18px;
-    color: #BDBDBD;
+    color: var(--light-silver);
 }
 
 .newsletter-search-btn {
@@ -2172,42 +2175,42 @@ body {
 }
 
 .no-webp .activities-card .card-01 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img01.png);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img01.png);
     border-radius: 6px;
 }
 
 .webp .activities-card .card-01 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img01.webp);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img01.webp);
     border-radius: 6px;
 }
 
 .no-webp .activities-card .card-02 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img02.png);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img02.png);
     border-radius: 6px;
 }
 
 .webp .activities-card .card-02 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img02.webp);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img02.webp);
     border-radius: 6px;
 }
 
 .no-webp .activities-card .card-03 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img03.png);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img03.png);
     border-radius: 6px;
 }
 
 .webp .activities-card .card-03 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img03.webp);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img03.webp);
     border-radius: 6px;
 }
 
 .no-webp .activities-card .card-04 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img04.png);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img04.png);
     border-radius: 6px;
 }
 
 .webp .activities-card .card-04 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img04.webp);
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, var(--dark-blue) 99.85%), url(img/activities_card_img04.webp);
     border-radius: 6px;
 }
 
@@ -2329,7 +2332,7 @@ footer {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    color: #BDBDBD;
+    color: var(--light-silver);
     list-style: none;
 }
 
@@ -2436,7 +2439,7 @@ footer {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    color: #BDBDBD;
+    color: var(--light-silver);
 }
 
 .footer-contact-details-container {
@@ -2453,7 +2456,7 @@ footer {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    color: #BDBDBD;
+    color: var(--light-silver);
 }
 
 .footer-contact-details-location-icn {
@@ -2518,7 +2521,7 @@ footer {
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    color: #BDBDBD;
+    color: var(--light-silver);
 }
 
 #footer-contact-name {
@@ -2601,8 +2604,7 @@ footer {
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .footer-contact-required {

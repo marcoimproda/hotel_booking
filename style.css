@@ -163,6 +163,10 @@ body {
     border: none;
 }
 
+.navbar__search input:focus {
+    outline-color: var(--duron-faraway-blue);
+}
+
 .navbar__search-btn {
     position: absolute;
     width: 64px;
@@ -223,11 +227,20 @@ body {
     top: -130px;
 }
 
-.navbar__profile_img {
+.no-webp .navbar__profile_img {
     position: absolute;
     width: 40px;
     height: 40px;
-    background: url(img/Ellipse1.png);
+    background: url(img/nathan.png);
+    left: 0px;
+    top: 1px;
+}
+
+.webp .navbar__profile_img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url(img/nathan.webp);
     left: 0px;
     top: 1px;
 }
@@ -389,12 +402,12 @@ body {
     display: inline;
     width: 48px;
     height: 8px;
-    left: 166px;
+    left: 169px;
     top: 20px;
 }
 
-.content-hotel__stars img {
-    margin: 1px;
+.content-hotel__stars-container {
+    margin-left: -2px;
 }
 
 .content-hotel__text {
@@ -504,11 +517,19 @@ body {
     top: 40px;
 }
 
-.content-hotel__slider_img {
+.no-webp .content-hotel__slider_img {
     position: relative;
     width: 728px;
     height: 450px;
-    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(img/Rectangle5.png);
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(img/rectangle5.png);
+    border-radius: 8px;
+}
+
+.webp .content-hotel__slider_img {
+    position: relative;
+    width: 728px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(img/rectangle5.webp);
     border-radius: 8px;
 }
 
@@ -658,17 +679,12 @@ body {
     top: 130px;
     background: var(--dark-red);
     border-radius: 4px;
-}
-
-.content-hotel__booking__button span {
-    position: absolute;
-    width: 127px;
-    height: 19px;
-    left: 90px;
-    top: 13px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
+    border: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--white);
 }
 
 
@@ -1525,7 +1541,7 @@ body {
     position: absolute;
     width: 95px;
     height: 30px;
-    left: 0px;
+    left: -2px;
     top: 30px;
     background: var(--dark-red);
     border-radius: 0px 4px 4px 0px;
@@ -1563,8 +1579,10 @@ body {
     top: 53px;
 }
 
-.guest-review__card-box-big-body-title img {
-    margin: 0 1px;
+.guest-review__card-box-big-body-stars {
+    position: relative;
+    top: 0px;
+    left: 3px;
 }
 
 .guest-review__card-box-big-body-title span {
@@ -1690,18 +1708,13 @@ body {
     top: 298px;
     background: var(--dark-red);
     border-radius: 4px;
-}
-
-.guest-review__card-box-big-body-btn span {
-    position: relative;
-    left: 26px;
-    top: 9px;
+    border: none;
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .guest-review__card-box-normal {
@@ -1711,8 +1724,6 @@ body {
     width: 730px;
     height: 500px;
     left: 33px;
-    /* left: 860px;
-    top: -352px; */
 }
 
 .guest-review__card-box-normal-img {
@@ -1724,7 +1735,7 @@ body {
     position: relative;
     width: 60px;
     height: 18px;
-    left: 0px;
+    left: -2px;
     top: -230px;
     background: var(--dark-red);
     border-radius: 0px 4px 4px 0px;
@@ -1748,7 +1759,7 @@ body {
     position: relative;
     width: 350px;
     height: 250px;
-    left: 0px;
+    left: -2px;
     top: 0px;
     background: var(--dark-blue);
     border-radius: 0px 0px 8px 8px;
@@ -1878,18 +1889,13 @@ body {
     top: 56px;
     background: var(--dark-red);
     border-radius: 4px;
-}
-
-.guest-review__card-box-normal-body-btn span {
-    position: relative;
-    left: 26px;
-    top: 9px;
+    border: none;
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .guest-review-section-two-cards .guest-review__card-box-normal-body-info {
@@ -1992,10 +1998,6 @@ body {
     top: 8px;
 }
 
-.people-review-package-card_profile-stars img {
-    margin: 0 1px;
-}
-
 .people-review-package-card-body p {
     position: relative;
     width: 537px;
@@ -2089,6 +2091,10 @@ body {
     border: none;
 }
 
+#newsletter-search-bar:focus {
+    outline-color: var(--white);
+}
+
 .newsletter-search label {
     position: absolute;
     top: 17px;
@@ -2104,22 +2110,18 @@ body {
 .newsletter-search-btn {
     position: relative;
     width: 64px;
-    height: 55px;
-    left: 286px;
+    height: 57px;
+    left: 290px;
     top: 0px;
     background: var(--dark-red);
     border-radius: 0px 4px 4px 0px;
     border: none;
-}
-
-.newsletter-search-btn a {
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
     color: var(--white);
-    text-decoration: none;
 }
 
 
@@ -2169,23 +2171,43 @@ body {
     top: 0px;
 }
 
-.activities-card .card-01 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG01.png);
+.no-webp .activities-card .card-01 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img01.png);
     border-radius: 6px;
 }
 
-.activities-card .card-02 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG02.png);
+.webp .activities-card .card-01 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img01.webp);
     border-radius: 6px;
 }
 
-.activities-card .card-03 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG03.png);
+.no-webp .activities-card .card-02 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img02.png);
     border-radius: 6px;
 }
 
-.activities-card .card-04 {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/Activities_Card_IMG04.png);
+.webp .activities-card .card-02 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img02.webp);
+    border-radius: 6px;
+}
+
+.no-webp .activities-card .card-03 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img03.png);
+    border-radius: 6px;
+}
+
+.webp .activities-card .card-03 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img03.webp);
+    border-radius: 6px;
+}
+
+.no-webp .activities-card .card-04 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img04.png);
+    border-radius: 6px;
+}
+
+.webp .activities-card .card-04 {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(img/activities_card_img04.webp);
     border-radius: 6px;
 }
 
@@ -2510,6 +2532,10 @@ footer {
     border: none;
 }
 
+#footer-contact-name:focus {
+    outline-color: var(--white);
+}
+
 .footer-contact-label-name {
     width: 89px;
     height: 15px;
@@ -2528,6 +2554,10 @@ footer {
     border: none;
 }
 
+#footer-contact-phone:focus {
+    outline-color: var(--white);
+}
+
 .footer-contact-label-phone {
     width: 89px;
     height: 15px;
@@ -2544,6 +2574,10 @@ footer {
     background: var(--white);
     border-radius: 4px;
     border: none;
+}
+
+#footer-contact-message:focus {
+    outline-color: var(--white);
 }
 
 .footer-contact-label-message {
